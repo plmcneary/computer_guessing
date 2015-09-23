@@ -1,6 +1,6 @@
 body {
   font-family: 'Oswald', sans-serif;
-  background: url(../assets/images/computer.jpg);
+  background: url("../assets/images/computer.jpg");
   background-size: cover;
   z-index: -1;
 }
