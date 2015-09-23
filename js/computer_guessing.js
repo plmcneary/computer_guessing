@@ -11,7 +11,7 @@ function reset (){
   for(i=0; i<numRange; ++i){
     numArr.push(i+1);
   }
-  guess = numArr[Math.floor((numRange/2)-1)];
+  guess = 'Is it ' + numArr[Math.floor((numRange/2)-1)] + '?';
   msg.textContent = guess;
 }
 
@@ -26,7 +26,7 @@ var btnReset = document.querySelector('.reset');
 btnLow.addEventListener('click', function(){
   numArr = numArr.splice((numRange/2), numRange);
   numRange = numArr.length;
-  guess = numArr[Math.floor(numRange/2)];
+  guess = 'Is it ' + numArr[Math.floor(numRange/2)] + '?';
   msg.textContent = guess;
 
 });
@@ -34,7 +34,7 @@ btnLow.addEventListener('click', function(){
 btnHigh.addEventListener('click', function(){
   numArr = numArr.splice(0, numRange/2);
   numRange = numArr.length;
-  guess = numArr[Math.floor(numRange/2)];
+  guess = 'Is it ' + numArr[Math.floor(numRange/2)] + '?';
   msg.textContent = guess;
 });
 

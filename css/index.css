@@ -1,0 +1,68 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background: url(../assets/Images/computer.jpg);
+  background-size: cover;
+  z-index: -1;
+}
+
+.overlay {
+  color: white;
+  position: fixed;
+  background-color: black;
+  opacity: 0.5;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  color: white;
+  font-size: 16em;
+  margin: 0.2em;
+}
+
+button {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  border: solid;
+  border-color: white;
+  border-radius: 20px;
+  padding: 1em;
+  margin: 1em 2em;
+}
+
+.low {
+  background-color: #264652;
+}
+
+.high {
+  background-color: #7E211D;
+}
+
+.correct {
+  background-color: #7D4E13;
+}
+
+.reset {
+  font-size: 2em;
+  padding: 0.3em 0.7em;
+  background-color: #060909;
+  border-radius: 40px;
+}
+
+a, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
